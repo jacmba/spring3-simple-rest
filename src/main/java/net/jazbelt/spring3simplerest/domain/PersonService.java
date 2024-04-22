@@ -15,7 +15,8 @@ public class PersonService implements IPersonService {
     public List<IPerson> getPersons() {
         return Arrays.asList(
                 new Person("John Doe", 20),
-                new Person("Jack Doe", 30)
+                new Person("Jack Doe", 30),
+                new Person("Jane Doe", 25)
         );
     }
 }
